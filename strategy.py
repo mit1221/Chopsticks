@@ -8,7 +8,7 @@ def interactive_strategy(game: Game) -> Any:
     """
     Return a move for game through interactively asking the user for input.
     """
-    move = input("Enter a move:")
+    move = input("Enter a move: ")
     return game.str_to_move(move)
 
 
